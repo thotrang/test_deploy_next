@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import FBChat from '@/module/fb-chat/FbChat';
+import dynamic from 'next/dynamic';
 
 export default function Home() {
-  return <main>
-    TEST new branch
-    
-  </main>;
+  return <div className="h-screen w-screen">
+    heheheheh
+    <FBChat/>
+  </div>
 }
