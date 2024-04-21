@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect } from "react";
 import anime from "animejs";
 import Image from "next/image";
@@ -57,7 +58,7 @@ export default function Action1() {
         </div>
       </div>
       <div className="absolute h-screen w-screen z-[-10]">
-        <Image
+        <img
           src="https://gifsec.com/wp-content/uploads/2022/09/heart-gif-10.gif"
           alt=""
           className="h-full w-full"
